@@ -23,10 +23,10 @@
 class Vehicle: # Base class
     pass
 
-class GroundVehicle:
+class GroundVehicle(Vehicle):
     pass
 
-class FlightVehicle:
+class FlightVehicle(Vehicle):
     pass
 
 class Car(GroundVehicle): # Ground vehicle 1

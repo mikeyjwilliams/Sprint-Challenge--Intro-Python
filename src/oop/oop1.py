@@ -23,5 +23,8 @@
 class Vehicle: # Base class
     pass
 
-class Car(Vehicle): # Ground vehicle 1
+class GroundVehicle:
+    pass
+
+class Car(GroundVehicle): # Ground vehicle 1
     pass

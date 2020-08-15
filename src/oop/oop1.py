@@ -26,8 +26,17 @@ class Vehicle: # Base class
 class GroundVehicle:
     pass
 
+class FlightVehicle:
+    pass
+
 class Car(GroundVehicle): # Ground vehicle 1
     pass
 
 class Motorcycle(GroundVehicle):
+    pass
+
+class Starship(FlightVehicle):
+    pass
+
+class Airplane(FlightVehicle):
     pass

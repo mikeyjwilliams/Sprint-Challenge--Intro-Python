@@ -24,7 +24,7 @@ humans = [
 # Write a list comprehension that creates a list of names of everyone
 # whose name starts with 'D':
 print("Starts with D:")
-a = [list[1] for lis in humans] #! type object not subscriptable.....
+a = [human.name for human in humans if human.name.startswith('D')] #! type object not subscriptable.....
 print(a)
 
 # Write a list comprehension that creates a list of names of everyone

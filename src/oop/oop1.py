@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 # Write classes for the following class hierarchy:
 #
 #  [Vehicle]->[FlightVehicle]->[Starship]
@@ -17,3 +19,24 @@
 #     pass
 #
 # Put a comment noting which class is the base class
+
+class Vehicle: # Base class
+    pass
+
+class GroundVehicle(Vehicle):
+    pass
+
+class FlightVehicle(Vehicle):
+    pass
+
+class Car(GroundVehicle): # Ground vehicle 1
+    pass
+
+class Motorcycle(GroundVehicle):
+    pass
+
+class Starship(FlightVehicle):
+    pass
+
+class Airplane(FlightVehicle):
+    pass
